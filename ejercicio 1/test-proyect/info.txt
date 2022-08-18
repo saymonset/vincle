@@ -1,0 +1,2 @@
+docker build . -t test -f ./prueba1/Dockerfile
+docker run -p 8081:8081 --network spring -d --rm --name test-contenedor test

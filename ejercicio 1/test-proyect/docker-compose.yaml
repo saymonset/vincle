@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+
+  test1:
+
+    container_name: test1
+
+    image: saymonset/test1:latest
+
+    ports:
+
+      - "8081:8081"
+
+    environment:
+
+      PORT: 8081
+
+    networks:
+
+      - spring
+
+    restart: always
+
+networks:
+
+  spring:
+
+    name: spring
