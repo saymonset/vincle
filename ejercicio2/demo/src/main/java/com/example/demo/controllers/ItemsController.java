@@ -43,6 +43,12 @@ public class ItemsController {
     @GetMapping
     public List<Item> listar() {
         return service.listar();
+   
+    }
+    
+    @GetMapping("/hello")
+    public String hello(@RequestParam(name="name") String name) {
+        return "hello";
     }
 
     @GetMapping("/{id}")

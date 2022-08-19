@@ -1,0 +1,1 @@
+INSERT INTO items (id,tipo, precisa, capacidad, envase, nombre, identifidor,nom_cliente) VALUES (1,'tipo','precisa','capacidad','envase','nombre','identifidor','nombrecliente')
