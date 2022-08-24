@@ -456,7 +456,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:8080/tipo/crearCliente",
+			"url": "localhost:8080/tipo/crearTipo",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -468,12 +468,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1661354050606,
+			"time": 1661355478491,
 			"name": "crearTipo",
 			"description": "",
 			"collectionId": "39b83849-7bba-df29-f674-afd48616c902",
 			"responses": [],
-			"rawModeData": "{\n  \"nombre\": \"Microsoft\"\n}"
+			"rawModeData": "{\n  \"nombre\": \"Bebida\"\n}"
 		},
 		{
 			"id": "cbf141bf-3d47-a14e-e66a-0ee4b09c4a6d",
