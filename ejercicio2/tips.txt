@@ -1,2 +1,0 @@
-docker build -t demo . -f ./demo/Dockerfile
-docker-compose up
